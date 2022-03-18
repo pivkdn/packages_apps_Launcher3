@@ -1,4 +1,12 @@
 buildscript {
+    ext {
+        kotlin_version = '1.6.10'
+        compose_version = '1.2.0-alpha04'
+        accompanist_version = '0.24.2-alpha'
+        libsu_version = '3.1.2'
+        protocVersion = '3.18.0'
+        room_version = '2.4.2'
+    }
     repositories {
         mavenCentral()
         google()
